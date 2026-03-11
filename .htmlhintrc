@@ -4,7 +4,7 @@
   "html-lang-require": true,
   "meta-charset-require": true,
   "meta-viewport-require": true,
-  "title-require": true
+  "title-require": true,
   "alt-require": true,
   "attr-no-duplication": true,
   "attr-lowercase": true,
@@ -18,5 +18,5 @@
   "tag-self-close": true,
   "tagname-lowercase": true,
   "spec-char-escape": true,
-  "id-unique": true,
+  "id-unique": true
 }
