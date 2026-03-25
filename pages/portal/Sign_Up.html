@@ -13,9 +13,21 @@
 <body class="bg-img">
   <div class="container bg-white bg-opacity-75 p-2">
     <form action="" method="get" accept-charset="utf-8">
-      <div class="container text-center bg-secondary-subtle border-1 border-primary rounded-1">
+      <div class="container text-center bg-warning-subtle border-1 border-primary rounded-1">
         <img class="mt-md-5 mb-md-4 mb-2 mt-3" src="../../public/Logo_128.svg" height="50" alt="KLD-Logo" />
         <h3 class="mb-2 mb-md-3">Sign Up</h3>
+      </div>
+      <div class="mb-3">
+        <label for="Username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="Username">
+      </div>
+      <div class="mb-3">
+        <label for="Gender">Gender</label>
+        <select class="form-select" style="bg-white">
+        <option selected disabled>Choose Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -25,6 +37,14 @@
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword2" class="form-label">Re-Enter Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword2">
+      </div>
+      <div class="mb-3">
+        <label for="MobileNumber" class="form-label">Phone Number</label>
+        <input type="number" class="form-control" id="MobileNumber">
       </div>
       <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
